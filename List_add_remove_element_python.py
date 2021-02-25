@@ -6,7 +6,7 @@ for i in range (a):
   lst.append(b)
 print("The list contain ", lst)
 res=int(input("Enter any option 1.Add element 2.Remove element 3.Exit: "))
-while (res!= 5):
+while (res!= 3):
   if res == 1:
     add=input("Enter a element to add: ")
     lst.append(add)
