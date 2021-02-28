@@ -1,4 +1,4 @@
-# Find a value in Dictionary ,if not available means add that value into the dictonary
+# Find a value in Dictionary ,if not available means add that value into the dictionary
 # Delete a value in Dictionary using key
 
 dic1={}
