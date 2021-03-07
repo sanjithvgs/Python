@@ -1,4 +1,4 @@
-# sort a list and find Median of given set numbers
+# sort a list and find Median of given set of numbers
 
 cnt=int(input ("Enter the length less than 3: "))
 if cnt<=2:
