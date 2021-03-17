@@ -39,7 +39,7 @@ class LinkedList:
 				break
 			n = n.ref
 		if n is None:
-			print_data("Node is not available")
+			print("Node is not available")
 		else:
 			new_node.ref= n.ref
 			n.ref = new_node
@@ -59,7 +59,7 @@ class LinkedList:
 				break
 			n = n.ref
 		if n.ref is None:
-			print_data("Node is not found")
+			print("Node is not found")
 		else:
 			new_node = Node(data)
 			new_node.ref = n.ref
