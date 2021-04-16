@@ -1,12 +1,12 @@
 def count_substring(string, sub_string):
 	c=0
-    for i in range(len(string)):
-    	if string[i:].startswith(sub_string):
-    		c +=1
+	for i in range(len(string)):
+		if string[i:].startswith(sub_string):
+			c +=1
 	return c
-if __name__ == '__main__':
-string = input().strip()
-sub_string = input().strip()
 
+string = input("Enter a string: ").strip()
+sub_string = input("Enter a substring: ").strip()
 count = count_substring(string, sub_string)
-print(count
+print("The substring count is: ")
+print(count)
