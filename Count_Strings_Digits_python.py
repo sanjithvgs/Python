@@ -3,7 +3,6 @@
 a=input("Enter a Input :")
 lst=[]
 lst=a
-res=[]
 str_cnt=0
 int_cnt=0
 othr_cnt=0
@@ -19,5 +18,4 @@ for i in range(len(lst)):
 
 print("The count of Strings are :",str_cnt)
 print("The count of Digits are :",int_cnt)
-# others count include <space> and special characters..
 print("Other's count :",othr_cnt)
