@@ -1,6 +1,6 @@
 lst=[]
 l=int(input("Enter the length: "))
-for _ in range(l):
+for i in range(l):
 	a=input("Enter a element: ")
 	lst.append(a)
 print("Original list: "+str(lst))
