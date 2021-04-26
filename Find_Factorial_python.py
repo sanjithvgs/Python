@@ -6,5 +6,5 @@ def factorial(num):
     for i in range (1,num+1):
       res=res*i
     return res
-num=int(input("Enter the number above 0 to find factorial: "))
+num=int(input("Enter a number greater than 0 to find factorial: "))
 print(factorial(num))
