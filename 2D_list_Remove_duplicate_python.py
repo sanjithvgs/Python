@@ -3,7 +3,7 @@ col=int(input("Enter the number of columns: "))
 lst=[]
 for i in range (row):
   col1=[]
-  print("Enter row value: ")
+  print("Enter row value:")
   for j in range (col):
     c=int(input())
     col1.append(c)
