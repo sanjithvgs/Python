@@ -13,7 +13,7 @@ def solve(A, B):
 
     current.next=current.next.next
     return A
-
+solve(A,B)
 Input:
 A = 4 -> 3 -> 2 -> 1
 B = 0
